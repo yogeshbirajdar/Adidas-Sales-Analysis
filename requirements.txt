@@ -1,7 +1,8 @@
+matplotlib==3.8.2
 streamlit
 pandas
 plotly
 openpyxl
 numpy
 Pillow
-matplotlib==3.8.2
+
