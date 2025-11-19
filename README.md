@@ -1,3 +1,5 @@
+Adidas Sales Dashboard: An end-to-end Streamlit/Plotly project analyzing multi-year sales data. It provides interactive, high-quality visualizations for stakeholders to assess performance across regions, products, retailers, and channels.
+
 # Adidas Sales Dashboard
 
 ## 📌 Project Overview
