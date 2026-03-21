@@ -142,7 +142,7 @@ total_quantity = filtered_df["UnitsSold"].sum()
 total_profit = filtered_df["OperatingProfit"].sum()
 
 with kpi1:
-    kpi1.metric("Total Sales", format_number("$",total_sales))
+    kpi1.metric("Total Sales", format_number(total_sales))
     
 
 with kpi2:
