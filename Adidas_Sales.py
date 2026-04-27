@@ -340,7 +340,7 @@ fig3.update_layout(width= 800, height = 650)
 st.plotly_chart(fig3)
 
 with st.expander("View TreeMap Data"):
-    st.write(filtered_df.style.background_gradient(cmap="Oranges"))
+    st.dataframe(filtered_df)
     csv = filtered_df.to_csv(index=False).encode("utf-8")
     st.download_button("Download Data", data= csv, file_name= "TreeMap.csv", mime= "text/csv",
                        help="Click Here to Download The Data as a CSV File")
