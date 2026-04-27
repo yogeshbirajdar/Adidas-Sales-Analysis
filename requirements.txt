@@ -5,4 +5,5 @@ plotly
 openpyxl
 numpy
 Pillow
-
+requests
+matplotlib
